@@ -13,7 +13,9 @@
 #include <lvgl_input_device.h>
 #include "statemachine.h"
 #include "threads.h"
+#ifdef native_sim
 #include "lvgl_ui.h"
+#endif
 
 #define LOG_LEVEL CONFIG_LOG_DEFAULT_LEVEL
 #include <zephyr/logging/log.h>

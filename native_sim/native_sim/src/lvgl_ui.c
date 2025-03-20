@@ -176,7 +176,7 @@ uint8_t get_switch(uint8_t selectedswitch){
 
 //Setup functions
 
-void setup_cont_butons_abc(lv_obj_t *parent){
+void setup_cont_buttons_abc(lv_obj_t *parent){
     static lv_coord_t col_dsc[] = {LV_GRID_FR(1), LV_GRID_FR(1), LV_GRID_FR(1), LV_GRID_TEMPLATE_LAST};
     static lv_coord_t row_dsc[] = {LV_GRID_FR(1), LV_GRID_TEMPLATE_LAST};
     lv_obj_t *cont = lv_obj_create(parent);
@@ -330,9 +330,9 @@ void setup_ui(lv_obj_t *parent) {
     lv_obj_set_grid_cell(cont_switches, LV_GRID_ALIGN_STRETCH, 5, 6, LV_GRID_ALIGN_STRETCH, 1, 2);
     lv_obj_set_style_bg_color(cont_switches, lv_color_hex(0x808080), 0);
 
-    lv_obj_t *cont_butons_abc = lv_obj_create(cont_main);
-    lv_obj_set_grid_cell(cont_butons_abc, LV_GRID_ALIGN_STRETCH, 1, 4, LV_GRID_ALIGN_STRETCH, 3, 2);
-    lv_obj_set_style_bg_color(cont_butons_abc, lv_color_hex(0xFFFFFF), 0);
+    lv_obj_t *cont_buttons_abc = lv_obj_create(cont_main);
+    lv_obj_set_grid_cell(cont_buttons_abc, LV_GRID_ALIGN_STRETCH, 1, 4, LV_GRID_ALIGN_STRETCH, 3, 2);
+    lv_obj_set_style_bg_color(cont_buttons_abc, lv_color_hex(0xFFFFFF), 0);
 
     lv_obj_t *cont_buttons2 = lv_obj_create(cont_main);
     lv_obj_set_grid_cell(cont_buttons2, LV_GRID_ALIGN_STRETCH, 1, 6, LV_GRID_ALIGN_STRETCH, 5, 6);
@@ -355,7 +355,7 @@ void setup_ui(lv_obj_t *parent) {
     lv_obj_set_style_bg_color(cont_label2, lv_color_hex(0xFF0000), 0);
 
     //Fill in the containers
-    setup_cont_butons_abc(cont_butons_abc);
+    setup_cont_buttons_abc(cont_buttons_abc);
     setup_cont_buttons2(cont_buttons2);
     setup_cont_switches(cont_switches);
     setup_led_array(cont_led_matrix);
