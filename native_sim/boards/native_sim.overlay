@@ -33,6 +33,8 @@
 		sw27 = &key28;
 		sw28 = &key29;
 		sw29 = &key30;
+
+		//gpio0 = &gpio_emul0;
 	};
 
 	//emulated gpio description

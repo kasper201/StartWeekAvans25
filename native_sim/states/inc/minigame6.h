@@ -4,8 +4,15 @@
 #include <zephyr/kernel.h>
 #include <stdio.h>
 #include "threads.h"
+
+#ifdef USE_SIMULATOR
+#include <lvgl.h>
+#include "hardware.h"
+#else
 #include "lcd.h"
 #include "genericGpio.h"
+#endif
+
 
 #define mg6ThreadCount 3
 

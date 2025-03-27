@@ -10,7 +10,7 @@
 #include "threads.h"
 
 #include "idle.h"
-#include "minigame2.h"
+//#include "minigame2.h"
 
 
 // Setup state machine
