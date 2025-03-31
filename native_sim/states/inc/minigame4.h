@@ -4,7 +4,7 @@
 #include <zephyr/kernel.h>
 #include <stdio.h>
 #include "threads.h"
-#ifdef USE_SIMULATOR
+#ifdef CONFIG_BOARD_NATIVE_SIM
 #include <lvgl.h>
 #include "hardware.h"
 #else

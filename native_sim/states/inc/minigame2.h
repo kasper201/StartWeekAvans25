@@ -10,10 +10,15 @@
 
 #include <zephyr/kernel.h>
 #include <zephyr/random/random.h>
-#include <lvgl.h>
+
 #include <stdio.h>
 #include "threads.h"
+
+#if defined(CONFIG_BOARD_NATIVE_SIM)
+#include <lvgl.h>
 #include "hardware.h"
+#endif
+
 
 #define mg2ThreadCount 4
 

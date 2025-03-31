@@ -3,7 +3,12 @@
 #include <stdio.h>
 #include <string.h>
 #include "threads.h"
+
+#ifdef CONFIG_BOARD_NATIVE_SIM
 #include "hardware.h"
+#endif
+
+
 
 // Thread startupdelay
 uint32_t Startupdelay = 120000;

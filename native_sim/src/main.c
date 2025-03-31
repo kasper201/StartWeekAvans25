@@ -2,20 +2,29 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
 #include <zephyr/device.h>
 #include <zephyr/devicetree.h>
 #include <zephyr/drivers/display.h>
 #include <zephyr/drivers/gpio.h>
-#include <lvgl.h>
+
 #include <stdio.h>
 #include <string.h>
 #include <zephyr/kernel.h>
-#include <lvgl_input_device.h>
+
 #include "statemachine.h"
 #include "threads.h"
-#ifdef native_sim
+
+#ifdef CONFIG_BOARD_NATIVE_SIM
 #include "lvgl_ui.h"
+#include <lvgl.h>
+#include <lvgl_input_device.h>
+
 #endif
+
+
+
+
 
 #define LOG_LEVEL CONFIG_LOG_DEFAULT_LEVEL
 #include <zephyr/logging/log.h>
@@ -31,6 +40,8 @@ LOG_MODULE_REGISTER(app);
 #define TMAIN_PRIORITY 9
 #define TLVGL_PRIORITY 3
 
+#ifdef CONFIG_BOARD_NATIVE_SIM 
+
 void lvgl_task_handler_loop() {
     while (1) {
 		//k_cpu_idle();
@@ -40,8 +51,11 @@ void lvgl_task_handler_loop() {
     }
 }
 
+#endif
+
 int tmain() // Core thread
 {
+	#ifdef CONFIG_BOARD_NATIVE_SIM 
 	const struct device *display_dev;
 	display_dev = DEVICE_DT_GET(DT_CHOSEN(zephyr_display));
 	if (!device_is_ready(display_dev)) {
@@ -55,6 +69,7 @@ int tmain() // Core thread
 	setup_ui(lv_scr_act());
 
 	printf("Main\n");
+	#endif
 	startStatemachine();
 
 	return 0;
@@ -62,5 +77,6 @@ int tmain() // Core thread
 
 // Define the threads
 K_THREAD_DEFINE(tmain_id, STACKSIZE, tmain, NULL, NULL, NULL, TMAIN_PRIORITY, 0, 0);
-
+#ifdef CONFIG_BOARD_NATIVE_SIM
 K_THREAD_DEFINE(tlvgl_id, STACKSIZE2, lvgl_task_handler_loop, NULL, NULL, NULL, TLVGL_PRIORITY, 0, 0);
+#endif

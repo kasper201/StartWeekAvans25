@@ -1,5 +1,6 @@
 #ifndef BUZZERS_h
 #define BUZZERS_h
+#include <stdint.h>
 #include <stdio.h>
 
 uint8_t buzzersInit();

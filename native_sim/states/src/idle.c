@@ -1,5 +1,7 @@
 #include "idle.h"
+#ifdef CONFIG_BOARD_NATIVE_SIM
 #include "hardware.h"
+#endif
 #include "threads.h"
 #include <zephyr/kernel.h>
 #include <stdio.h>
