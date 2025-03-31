@@ -17,6 +17,9 @@
 #if defined(CONFIG_BOARD_NATIVE_SIM)
 #include <lvgl.h>
 #include "hardware.h"
+#else
+#include "lcd.h"
+#include "genericGpio.h"
 #endif
 
 

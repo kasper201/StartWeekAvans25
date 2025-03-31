@@ -345,6 +345,14 @@ uint8_t lcdStringWrite(char *msg)
 	return 0;
 }
 
+uint8_t lcdClear()
+{
+	set_lcd_display(" ");
+
+	return 0;
+}
+
+
 uint8_t lcdEnable()
 {
 	return 0;

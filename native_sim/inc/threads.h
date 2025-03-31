@@ -3,6 +3,17 @@
 
 #include <zephyr/kernel.h>
 
+#ifdef CONFIG_BOARD_NATIVE_SIM
+#include "hardware.h"
+#else
+#include "genericGpio.h"
+#include "circleMatrix.h"
+#include "buttonMatrix.h"
+#include "ledMatrix.h"
+#include "sevenSegment.h"
+#endif
+
+
 extern uint32_t Startupdelay;
 
 // Total number of threads
