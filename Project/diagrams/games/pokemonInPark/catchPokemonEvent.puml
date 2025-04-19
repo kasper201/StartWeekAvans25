@@ -1,0 +1,14 @@
+@startuml
+
+start
+    :randomizer;
+    switch (randomizer)
+        case (1)
+            :miniGameCircleCatch;
+        case (2)
+            :miniGameButtonMash;
+        case (3)
+            :miniGameMemory;
+stop
+
+@enduml
