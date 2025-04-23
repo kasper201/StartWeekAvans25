@@ -1,11 +1,11 @@
-#ifndef MINIGAME2_H
-#define MINIGAME2_H
+#ifndef TESTHANDLER_H
+#define TESTHANDLER_H
 
 #define DEBUG_MODE
 #ifdef DEBUG_MODE
-#define printf_minigame2 printf
+#define printf_testhandler printf
 #else
-#define printf_minigame2(...)
+#define printf_testhandler(...)
 #endif //DEBUG_MODE
 
 #include <zephyr/kernel.h>
@@ -13,6 +13,7 @@
 
 #include <stdio.h>
 #include "threads.h"
+#include "locations.h"
 
 #if defined(CONFIG_BOARD_NATIVE_SIM)
 #include <lvgl.h>
@@ -22,10 +23,6 @@
 #include "genericGpio.h"
 #endif
 
-#define mg2ThreadCount 4
+uint8_t handleTests();
 
-void getMg2Threads(char ***, unsigned *);
-
-int playMg2();
-
-#endif // MINIGAME2_H
+#endif // TESTHANDLER_H
