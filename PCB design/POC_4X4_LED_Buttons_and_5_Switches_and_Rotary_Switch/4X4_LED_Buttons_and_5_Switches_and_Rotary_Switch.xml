@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Gebruiker\OneDrive - Avans Hogeschool\Max Smits 3\Project blok 11 &amp; 12\PCB design\POC_4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch\4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch</source>
+    <date>03/04/2024 13:24:19</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Project Startweek BOX</title>
+        <company>Avans</company>
+        <rev>1.0</rev>
+        <date>2024-03-07</date>
+        <source>4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>311656ce-9734-46ce-9a9d-5f259a95a29d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e7fab9e-c850-40a1-87e5-f5ef8af75469</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>564db1c3-316f-4880-afbe-8a63b95c4bbc</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0499ff8-f595-4444-91e9-76b38d7eaa6d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79289594-40b0-4239-8af9-da83274b1b2b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcce3fa2-953d-4b28-8eb2-84846ab43ac4</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a9245bb-b786-497d-9e06-ed9dc2c6a45d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c9f3abb-9e8d-4cc7-a9eb-24e3f32ec9fd</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f25906d-271f-4811-8657-f3a0d3e146cf</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38ce9532-719c-4a19-a867-ca81c4c5a595</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24d28fbc-d525-4250-b9d4-d48194e6f66e</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2941f00b-c32e-4696-b075-e236d7223a6c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a01eef97-839d-4c7e-8e0c-c253d910d5d1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ca7191e-dacd-405e-86a7-2d6698faf937</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1aebe214-b630-41a4-8486-c09ac2911046</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d951415-67e2-43ee-b82a-3dddea8e441d</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6525358-c0e7-43a9-bc4b-60f305256acc</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8400e7b-dc35-406b-869a-e5921c22bc2e</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf795d52-8d9d-408e-ae73-6420b9b060a7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>955a5473-3456-4994-a9c1-76a8d56f1f76</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>267f12cf-9acd-4d28-9ac9-56a0a884f9bd</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac425b03-7fbd-4a30-9ef6-4e46821c3893</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0863f96a-260b-4e34-a644-3f2b9bbedec8</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f440290f-3a92-40ee-9eb3-3f1b3d10124b</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70977de5-56c2-48a4-a1bd-885ddb684740</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>995a85bb-ecd7-43eb-af26-8927810a95dc</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba66b1b2-afe6-4557-90e0-1bcb9c6f9725</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fc1da75-9527-4929-a386-0221eb7d2f96</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10aa7f66-07d7-4233-9715-985db5acf0ac</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x34</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x34_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x34" description="Generic connector, single row, 01x34, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c49b565e-44a0-476e-b4b9-08f81f92defa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C25353</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25353"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e915aff5-72f2-4877-ac47-843c8a431997</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C25353</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25353"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6d92892-a370-40ae-83a7-11d58199928d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C25353</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25353"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>400d1834-d450-4ade-9df5-c6a2254617a0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C25353</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25353"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dcdb0c6-cf48-4c9a-b7b4-cfd193979374</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>50k</value>
+      <footprint>footprint:Potmeter_THT_Avans</footprint>
+      <fields>
+        <field name="LCSC">AVANS</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="LCSC" value="AVANS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcd3eb79-d6e8-47c2-ba1b-c5531ef617d6</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SN74HC595DR</value>
+      <footprint>footprint:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C10092</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC595DR" description=""/>
+      <property name="LCSC" value="C10092"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a43205e3-34df-4aef-90d1-881a9024b9e6</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63785a69-224d-4313-a0a5-a2a33df66222</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8645025f-1f79-4b7e-8a23-86e114bce303</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a70c0c92-2e60-4abd-a967-4b355fbe63b2</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7eb70f2-c720-436a-bccd-296a22ae14ae</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>SN74HC138DR</value>
+      <footprint>footprint:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6818</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC138DR" description=""/>
+      <property name="LCSC" value="C6818"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdfde2dd-59c9-4cf9-9a98-707affc589a1</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dddf2c21-d6ad-4794-9e42-2a103698063d</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b55903bd-1e3e-4dc0-b2c6-a183be21c074</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f1f9d53-0509-4bf4-a83b-3e7d4cc688a3</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0974c2fc-deb7-4afe-97c9-9a62babbd0bd</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a275598-466a-481e-b602-56f49ac69d8a</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af2aa54d-be67-4f63-b57d-77199a22baff</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>486d4e53-7158-47b2-963f-d35c444782b0</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa00ed56-86a8-4466-9df8-7f88a4f4ab46</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51cf8790-b5df-4c0f-bca3-7d83f5bfa38e</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8823aa91-14aa-4b05-9c5e-1f5759fdd86f</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>SN74HC04DR</value>
+      <footprint>footprint:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>https://item.szlcsc.com/7253.html</datasheet>
+      <fields>
+        <field name="LCSC">C6811</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC04DR" description=""/>
+      <property name="LCSC" value="C6811"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>266c1072-3cc9-4d60-bd8a-6bd14d14661c</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ab6e282-05c7-4ea2-b6ca-8da9b0d4be87</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5cea4ce-9dc3-4810-803d-898aa979567e</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db7f2ee9-c6bb-4b5e-8acd-f2c7df3fae8f</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57b746d3-1a28-4c45-b9d5-cb278f3742af</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>K6-6271D04</value>
+      <footprint>footprint:LED_Button_AVANS</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <libsource lib="JLCPCB" part="K6-6271D04" description=""/>
+      <property name="LCSC" value="C693824"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f354047-709d-48c3-bec9-ecc9504b99b5</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bebe1400-45b8-421a-8d55-4bb01e57569a</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>MT-0-102-A101-M200-RS+PJ</value>
+      <footprint>footprint:SW-TH_MT-0-103-A101-M200-RS</footprint>
+      <datasheet>https://item.szlcsc.com/1879284.html</datasheet>
+      <fields>
+        <field name="LCSC">C1788492</field>
+      </fields>
+      <libsource lib="JLCPCB" part="MT-0-102-A101-M200-RS+PJ" description=""/>
+      <property name="LCSC" value="C1788492"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>233300ab-1285-48a5-9c08-f4322552b9ee</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>MT-0-102-A101-M200-RS+PJ</value>
+      <footprint>footprint:SW-TH_MT-0-103-A101-M200-RS</footprint>
+      <datasheet>https://item.szlcsc.com/1879284.html</datasheet>
+      <fields>
+        <field name="LCSC">C1788492</field>
+      </fields>
+      <libsource lib="JLCPCB" part="MT-0-102-A101-M200-RS+PJ" description=""/>
+      <property name="LCSC" value="C1788492"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b5f7c49-8bed-4647-94ea-ad7ddf681e4f</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>MT-0-102-A101-M200-RS+PJ</value>
+      <footprint>footprint:SW-TH_MT-0-103-A101-M200-RS</footprint>
+      <datasheet>https://item.szlcsc.com/1879284.html</datasheet>
+      <fields>
+        <field name="LCSC">C1788492</field>
+      </fields>
+      <libsource lib="JLCPCB" part="MT-0-102-A101-M200-RS+PJ" description=""/>
+      <property name="LCSC" value="C1788492"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f255ccd-fae8-4df4-8a35-da04eb33b6eb</tstamps>
+    </comp>
+    <comp ref="U27">
+      <value>MT-0-102-A101-M200-RS+PJ</value>
+      <footprint>footprint:SW-TH_MT-0-103-A101-M200-RS</footprint>
+      <datasheet>https://item.szlcsc.com/1879284.html</datasheet>
+      <fields>
+        <field name="LCSC">C1788492</field>
+      </fields>
+      <libsource lib="JLCPCB" part="MT-0-102-A101-M200-RS+PJ" description=""/>
+      <property name="LCSC" value="C1788492"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fc84f51-56de-474e-b39f-8e7f554a33d7</tstamps>
+    </comp>
+    <comp ref="U28">
+      <value>MT-0-102-A101-M200-RS+PJ</value>
+      <footprint>footprint:SW-TH_MT-0-103-A101-M200-RS</footprint>
+      <datasheet>https://item.szlcsc.com/1879284.html</datasheet>
+      <fields>
+        <field name="LCSC">C1788492</field>
+      </fields>
+      <libsource lib="JLCPCB" part="MT-0-102-A101-M200-RS+PJ" description=""/>
+      <property name="LCSC" value="C1788492"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4X4_LED_Buttons_and_5_Switches_and_Rotary_Switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8338f4c2-2f4c-410c-a499-66ea0c645bf5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x34">
+      <description>Generic connector, single row, 01x34, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x34</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="BSN20BKR">
+      <docs>https://www.diodes.com/assets/Package-Files/SOT23.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BSN20BKR</field>
+        <field name="Footprint">footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Package-Files/SOT23.pdf</field>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="D" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="K6-6271D04">
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">K6-6271D04</field>
+        <field name="Footprint">footprint:SW-TH_K6-6271DXX</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20210416/C693823_8C6421992BDF6156F014A3B5F3DE2B1B.pdf</field>
+        <field name="LCSC">C693824</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="MT-0-102-A101-M200-RS+PJ">
+      <docs>https://item.szlcsc.com/1879284.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT-0-102-A101-M200-RS+PJ</field>
+        <field name="Footprint">footprint:SW-TH_MT-0-103-A101-M200-RS</field>
+        <field name="Datasheet">https://item.szlcsc.com/1879284.html</field>
+        <field name="LCSC">C1788492</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="SN74HC04DR">
+      <docs>https://item.szlcsc.com/7253.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC04DR</field>
+        <field name="Footprint">footprint:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL</field>
+        <field name="Datasheet">https://item.szlcsc.com/7253.html</field>
+        <field name="LCSC">C6811</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="unspecified"/>
+        <pin num="2" name="1Y" type="unspecified"/>
+        <pin num="3" name="2A" type="unspecified"/>
+        <pin num="4" name="2Y" type="unspecified"/>
+        <pin num="5" name="3A" type="unspecified"/>
+        <pin num="6" name="3Y" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="4Y" type="unspecified"/>
+        <pin num="9" name="4A" type="unspecified"/>
+        <pin num="10" name="5Y" type="unspecified"/>
+        <pin num="11" name="5A" type="unspecified"/>
+        <pin num="12" name="6Y" type="unspecified"/>
+        <pin num="13" name="6A" type="unspecified"/>
+        <pin num="14" name="VCC" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="SN74HC138DR">
+      <docs>http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC138DR</field>
+        <field name="Footprint">footprint:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</field>
+        <field name="Datasheet">http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</field>
+        <field name="LCSC">C6818</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspecified"/>
+        <pin num="2" name="B" type="unspecified"/>
+        <pin num="3" name="C" type="unspecified"/>
+        <pin num="4" name="G2A#" type="unspecified"/>
+        <pin num="5" name="G2B#" type="unspecified"/>
+        <pin num="6" name="G1" type="unspecified"/>
+        <pin num="7" name="Y7" type="unspecified"/>
+        <pin num="8" name="GND" type="unspecified"/>
+        <pin num="9" name="Y6" type="unspecified"/>
+        <pin num="10" name="Y5" type="unspecified"/>
+        <pin num="11" name="Y4" type="unspecified"/>
+        <pin num="12" name="Y3" type="unspecified"/>
+        <pin num="13" name="Y2" type="unspecified"/>
+        <pin num="14" name="Y1" type="unspecified"/>
+        <pin num="15" name="Y0" type="unspecified"/>
+        <pin num="16" name="VCC" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="SN74HC595DR">
+      <docs>http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC595DR</field>
+        <field name="Footprint">footprint:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</field>
+        <field name="Datasheet">http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</field>
+        <field name="LCSC">C10092</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="unspecified"/>
+        <pin num="2" name="QC" type="unspecified"/>
+        <pin num="3" name="QD" type="unspecified"/>
+        <pin num="4" name="QE" type="unspecified"/>
+        <pin num="5" name="QF" type="unspecified"/>
+        <pin num="6" name="QG" type="unspecified"/>
+        <pin num="7" name="QH" type="unspecified"/>
+        <pin num="8" name="GND" type="unspecified"/>
+        <pin num="9" name="QH#" type="unspecified"/>
+        <pin num="10" name="SRCLR#" type="unspecified"/>
+        <pin num="11" name="SRCLK" type="unspecified"/>
+        <pin num="12" name="RCLK" type="unspecified"/>
+        <pin num="13" name="OE#" type="unspecified"/>
+        <pin num="14" name="SER" type="unspecified"/>
+        <pin num="15" name="QA" type="unspecified"/>
+        <pin num="16" name="VCC" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="JLCPCB">
+      <uri>D:/Program files/JLCPCB part list downloader/Reeds gedownloadet/JLC2KiCad_lib/Schematic/default_lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="SRCLR#" pintype="unspecified"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U17" pin="14" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U6" pin="16" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U6" pin="6" pinfunction="G1" pintype="unspecified"/>
+    </net>
+    <net code="2" name="4X4_LED_Buttons_Button_1">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="3" name="4X4_LED_Buttons_Button_2">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U3" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="4" name="4X4_LED_Buttons_Button_3">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U4" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="5" name="4X4_LED_Buttons_Button_4">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U5" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="6" name="4X4_LED_Buttons_Button_5">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U7" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="7" name="4X4_LED_Buttons_Button_6">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U8" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="8" name="4X4_LED_Buttons_Button_7">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U9" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="9" name="4X4_LED_Buttons_Button_8">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U10" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="10" name="4X4_LED_Buttons_Button_9">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J1" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="U13" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U13" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="11" name="4X4_LED_Buttons_Button_10">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J1" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U14" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="12" name="4X4_LED_Buttons_Button_11">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="U15" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U15" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="13" name="4X4_LED_Buttons_Button_12">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="U16" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U16" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="14" name="4X4_LED_Buttons_Button_13">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J1" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="U19" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U19" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="15" name="4X4_LED_Buttons_Button_14">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="U20" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U20" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="16" name="4X4_LED_Buttons_Button_15">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U21" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U21" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="17" name="4X4_LED_Buttons_Button_16">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U22" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U22" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="18" name="4X4_LED_Buttons_MUX_A">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="19" name="4X4_LED_Buttons_MUX_B">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="B" pintype="unspecified"/>
+    </net>
+    <net code="20" name="4X4_LED_Buttons_shift_clock">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SRCLK" pintype="unspecified"/>
+    </net>
+    <net code="21" name="4X4_LED_Buttons_shift_data_in">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SER" pintype="unspecified"/>
+    </net>
+    <net code="22" name="4X4_LED_Buttons_shift_output_enable">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="RCLK" pintype="unspecified"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="OE#" pintype="unspecified"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U10" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U10" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U11" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U12" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U13" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U13" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U14" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U14" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U15" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U15" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U16" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U16" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U17" pin="11" pinfunction="5A" pintype="unspecified"/>
+      <node ref="U17" pin="13" pinfunction="6A" pintype="unspecified"/>
+      <node ref="U17" pin="7" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U18" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U19" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U19" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U20" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U20" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U21" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U21" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U22" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U22" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U23" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U24" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U25" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U26" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U27" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U28" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U4" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U4" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U5" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U5" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U6" pin="3" pinfunction="C" pintype="unspecified"/>
+      <node ref="U6" pin="4" pinfunction="G2A#" pintype="unspecified"/>
+      <node ref="U6" pin="5" pinfunction="G2B#" pintype="unspecified"/>
+      <node ref="U6" pin="8" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U7" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U7" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U8" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U9" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U9" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="24" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="QB" pintype="unspecified"/>
+    </net>
+    <net code="25" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="QC" pintype="unspecified"/>
+    </net>
+    <net code="26" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="QA" pintype="unspecified"/>
+    </net>
+    <net code="27" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="QD" pintype="unspecified"/>
+    </net>
+    <net code="28" name="Rotary_Switch">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Switches_Switch_1_OFF">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U24" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="30" name="Switches_Switch_1_ON">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U24" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="31" name="Switches_Switch_2_OFF">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U25" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="32" name="Switches_Switch_2_ON">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U25" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="33" name="Switches_Switch_3_OFF">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U26" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="34" name="Switches_Switch_3_ON">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U26" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="35" name="Switches_Switch_4_OFF">
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U27" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="36" name="Switches_Switch_4_ON">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U27" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="37" name="Switches_Switch_5_OFF">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U28" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="38" name="Switches_Switch_5_ON">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U28" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="39" name="co_1">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U19" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U2" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U7" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="40" name="co_2">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U20" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U8" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="41" name="co_3">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U15" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U21" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U4" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U9" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="42" name="co_4">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U16" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U22" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U5" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="43" name="gate_ro_1">
+      <node ref="U11" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U17" pin="2" pinfunction="1Y" pintype="unspecified"/>
+    </net>
+    <net code="44" name="gate_ro_1_inv">
+      <node ref="U17" pin="1" pinfunction="1A" pintype="unspecified"/>
+      <node ref="U6" pin="15" pinfunction="Y0" pintype="unspecified"/>
+    </net>
+    <net code="45" name="gate_ro_2">
+      <node ref="U12" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U17" pin="4" pinfunction="2Y" pintype="unspecified"/>
+    </net>
+    <net code="46" name="gate_ro_2_inv">
+      <node ref="U17" pin="3" pinfunction="2A" pintype="unspecified"/>
+      <node ref="U6" pin="14" pinfunction="Y1" pintype="unspecified"/>
+    </net>
+    <net code="47" name="gate_ro_3">
+      <node ref="U17" pin="6" pinfunction="3Y" pintype="unspecified"/>
+      <node ref="U18" pin="1" pinfunction="G" pintype="unspecified"/>
+    </net>
+    <net code="48" name="gate_ro_3_inv">
+      <node ref="U17" pin="5" pinfunction="3A" pintype="unspecified"/>
+      <node ref="U6" pin="13" pinfunction="Y2" pintype="unspecified"/>
+    </net>
+    <net code="49" name="gate_ro_4">
+      <node ref="U17" pin="8" pinfunction="4Y" pintype="unspecified"/>
+      <node ref="U23" pin="1" pinfunction="G" pintype="unspecified"/>
+    </net>
+    <net code="50" name="gate_ro_4_inv">
+      <node ref="U17" pin="9" pinfunction="4A" pintype="unspecified"/>
+      <node ref="U6" pin="12" pinfunction="Y3" pintype="unspecified"/>
+    </net>
+    <net code="51" name="ro_1">
+      <node ref="U11" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U3" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U4" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U5" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="52" name="ro_2">
+      <node ref="U10" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U12" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U7" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U8" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U9" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="53" name="ro_3">
+      <node ref="U13" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U14" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U15" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U16" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U18" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="54" name="ro_4">
+      <node ref="U19" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U20" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U21" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U22" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U23" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="55" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="QE" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="QF" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="QG" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="QH" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="QH#" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U6-Pad7)">
+      <node ref="U6" pin="7" pinfunction="Y7" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U6-Pad9)">
+      <node ref="U6" pin="9" pinfunction="Y6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U6-Pad10)">
+      <node ref="U6" pin="10" pinfunction="Y5" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U6-Pad11)">
+      <node ref="U6" pin="11" pinfunction="Y4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U17-Pad10)">
+      <node ref="U17" pin="10" pinfunction="5Y" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U17-Pad12)">
+      <node ref="U17" pin="12" pinfunction="6Y" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

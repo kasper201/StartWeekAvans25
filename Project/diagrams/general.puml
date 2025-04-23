@@ -1,11 +1,11 @@
 @startuml
-'https://plantuml.com/sequence-diagram
 
-autonumber
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : this is another string
 
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+State1 -> State2
+State2 --> [*]
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
 @enduml

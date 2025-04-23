@@ -37,8 +37,7 @@ void init_state(struct state *state) {
 	disableAllThreads();
 
 	Startupdelay = 0;
-	// state->next = idle_state;
-	state->next = mg2_state; // go to minigame 2 for testing
+	state->next = idle_state;
 }
 
 void idle_state(struct state *state) {

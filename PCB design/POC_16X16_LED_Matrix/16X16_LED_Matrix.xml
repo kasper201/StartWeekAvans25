@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Gebruiker\OneDrive - Avans Hogeschool\Max Smits 3\Project blok 11 &amp; 12\PCB design\POC_16X16_LED_Matrix\16X16_LED_Matrix.kicad_sch</source>
+    <date>03/04/2024 13:25:35</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Project Startweek BOX</title>
+        <company>Avans</company>
+        <rev>1.0</rev>
+        <date>2024-03-07</date>
+        <source>16X16_LED_Matrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8af7ef8f-b2e8-4ac6-a33e-ee7b7fd673ca</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>428e1a65-3a6b-4546-8a0a-b3c2795df354</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37cef74b-6261-4425-906e-1ad6779f9a2f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22c5add8-10a8-4f1b-9aef-32a3498d132c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fc57969-61c8-480d-9c00-8b3420dccbab</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C97946</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C97946"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>643262bc-67ba-452c-8427-e7b6156b423e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x09</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>495b3661-24b0-4853-9b8f-a291cc3e40b8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01bb7335-04ca-4b24-8276-76f69c880ef1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f8d1507-0088-4ec5-8c32-e70393be48b4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0aa7c6a-028a-4bb8-82c7-ac23216b9815</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20fb2410-eb2d-493f-ae02-1b1e696cf1ca</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ef2b998-dc55-434a-ab23-3e11d001a725</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c691ee3-1cd8-472e-9653-4849100480eb</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cf6ea60-4bb9-4d55-b407-4e76589cca53</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3aeb4578-ddf5-4c8c-938c-5a3e7d5e9041</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeeb1104-8c4b-4e8c-9572-2ad7c336e287</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68fa037a-0cd0-4bdb-9589-43976790aba1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7bce668-105f-4917-a257-fe71a0b7347d</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03415c6a-1aa4-41e8-94f7-39e0c0fda148</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>253bd0d8-4767-44b3-bafe-d35e52e7e17e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>762976b4-3813-43d4-a876-553d39ccaffb</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5144e0da-25c2-4776-b2ad-c27fa35e6b7e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C2933785</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2933785"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e62da94e-63ee-4af3-829e-362700433f7a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SN74HC595DR</value>
+      <footprint>footprint:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C10092</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC595DR" description=""/>
+      <property name="LCSC" value="C10092"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a39df865-14b6-4d90-a8df-a00061f3c4e0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SN74HC04DR</value>
+      <footprint>footprint:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>https://item.szlcsc.com/7253.html</datasheet>
+      <fields>
+        <field name="LCSC">C6811</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC04DR" description=""/>
+      <property name="LCSC" value="C6811"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cbee4e5-2bde-402b-9a7a-dfbdbed4d355</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SZ421288N_64</value>
+      <footprint>footprint:LED-SEG-TH_SZ421288N-64</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20220310/56594458C5EED5BEAFFDE966345907D8.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2980922</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SZ421288N_64" description=""/>
+      <property name="LCSC" value="C2980922"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa2ff9e1-8196-4d31-a0ae-921f79c66853</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SZ421288N_64</value>
+      <footprint>footprint:LED-SEG-TH_SZ421288N-64</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20220310/56594458C5EED5BEAFFDE966345907D8.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2980922</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SZ421288N_64" description=""/>
+      <property name="LCSC" value="C2980922"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>481f39ad-7433-4f1e-a6a6-b6493375371d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>CD74HC154M96</value>
+      <footprint>footprint:SOIC-24_L15.4-W7.5-P1.27-LS10.3-BL</footprint>
+      <datasheet>https://item.szlcsc.com/417060.html</datasheet>
+      <fields>
+        <field name="LCSC">C2832236</field>
+      </fields>
+      <libsource lib="JLCPCB" part="CD74HC154M96" description=""/>
+      <property name="LCSC" value="C2832236"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec5d0f8e-3d7e-4e79-bece-23f6f0069055</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>SN74HC595DR</value>
+      <footprint>footprint:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C10092</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC595DR" description=""/>
+      <property name="LCSC" value="C10092"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4493977a-c5ba-41d3-aae3-c78a888a1e07</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>SN74HC04DR</value>
+      <footprint>footprint:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>https://item.szlcsc.com/7253.html</datasheet>
+      <fields>
+        <field name="LCSC">C6811</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC04DR" description=""/>
+      <property name="LCSC" value="C6811"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42fdaf50-6fa0-4325-8503-ef4174de307c</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>SN74HC04DR</value>
+      <footprint>footprint:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>https://item.szlcsc.com/7253.html</datasheet>
+      <fields>
+        <field name="LCSC">C6811</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SN74HC04DR" description=""/>
+      <property name="LCSC" value="C6811"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7355b20-73d0-445f-a849-791a50786f87</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>SZ421288N_64</value>
+      <footprint>footprint:LED-SEG-TH_SZ421288N-64</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20220310/56594458C5EED5BEAFFDE966345907D8.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2980922</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SZ421288N_64" description=""/>
+      <property name="LCSC" value="C2980922"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fcf426c-5a24-4c5f-84cc-e91808753b31</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>SZ421288N_64</value>
+      <footprint>footprint:LED-SEG-TH_SZ421288N-64</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20220310/56594458C5EED5BEAFFDE966345907D8.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2980922</field>
+      </fields>
+      <libsource lib="JLCPCB" part="SZ421288N_64" description=""/>
+      <property name="LCSC" value="C2980922"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3087a1c5-d46c-45f3-95a7-646bb57ffb67</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65bfbec7-6fb9-4987-80c1-ff1851d54038</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>869e4e5d-0ba2-4623-a79c-e94aec112854</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f77d9a9f-31a3-4785-b317-598878a6fb47</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2062259-502b-40e2-839e-043e86031890</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62e97d68-756d-4e5a-b7a0-16dba9917083</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>093a9ff5-ef7a-455c-859a-d2e50ed1f693</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>532470fb-0dc1-4e51-be2b-2be9b184e3aa</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6aac409-58bf-43b2-86dd-1f74ec69d2cb</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f415282e-f854-4428-afb8-0000af146061</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c55f273c-d57c-4ebb-83b5-bf0bdbe80187</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22def660-ac87-40cf-8561-ac61270c6c05</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8918ad0e-9843-4827-b68e-6cab52806df4</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>077a3075-c6eb-49c0-b446-744dfe28e704</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af0c4785-02f9-4a29-a970-1ed17cf07fdf</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adc96850-caed-4b02-bf54-48579742a2e6</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>BSN20BKR</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.diodes.com/assets/Package-Files/SOT23.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <libsource lib="JLCPCB" part="BSN20BKR" description=""/>
+      <property name="LCSC" value="C118033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="16X16_LED_Matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>722490a4-22e4-42e7-93df-44a509fb7d28</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x09">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="BSN20BKR">
+      <docs>https://www.diodes.com/assets/Package-Files/SOT23.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BSN20BKR</field>
+        <field name="Footprint">footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Package-Files/SOT23.pdf</field>
+        <field name="LCSC">C118033</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="D" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="CD74HC154M96">
+      <docs>https://item.szlcsc.com/417060.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74HC154M96</field>
+        <field name="Footprint">footprint:SOIC-24_L15.4-W7.5-P1.27-LS10.3-BL</field>
+        <field name="Datasheet">https://item.szlcsc.com/417060.html</field>
+        <field name="LCSC">C2832236</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y0#" type="unspecified"/>
+        <pin num="2" name="Y1#" type="unspecified"/>
+        <pin num="3" name="Y2#" type="unspecified"/>
+        <pin num="4" name="Y3#" type="unspecified"/>
+        <pin num="5" name="Y4#" type="unspecified"/>
+        <pin num="6" name="Y5#" type="unspecified"/>
+        <pin num="7" name="Y6#" type="unspecified"/>
+        <pin num="8" name="Y7#" type="unspecified"/>
+        <pin num="9" name="Y8#" type="unspecified"/>
+        <pin num="10" name="Y9#" type="unspecified"/>
+        <pin num="11" name="Y10#" type="unspecified"/>
+        <pin num="12" name="GND" type="unspecified"/>
+        <pin num="13" name="Y11#" type="unspecified"/>
+        <pin num="14" name="Y12#" type="unspecified"/>
+        <pin num="15" name="Y13#" type="unspecified"/>
+        <pin num="16" name="Y14#" type="unspecified"/>
+        <pin num="17" name="Y15#" type="unspecified"/>
+        <pin num="18" name="E1#" type="unspecified"/>
+        <pin num="19" name="E2#" type="unspecified"/>
+        <pin num="20" name="A3" type="unspecified"/>
+        <pin num="21" name="A2" type="unspecified"/>
+        <pin num="22" name="A1" type="unspecified"/>
+        <pin num="23" name="A0" type="unspecified"/>
+        <pin num="24" name="VCC" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="SN74HC04DR">
+      <docs>https://item.szlcsc.com/7253.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC04DR</field>
+        <field name="Footprint">footprint:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL</field>
+        <field name="Datasheet">https://item.szlcsc.com/7253.html</field>
+        <field name="LCSC">C6811</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="unspecified"/>
+        <pin num="2" name="1Y" type="unspecified"/>
+        <pin num="3" name="2A" type="unspecified"/>
+        <pin num="4" name="2Y" type="unspecified"/>
+        <pin num="5" name="3A" type="unspecified"/>
+        <pin num="6" name="3Y" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="4Y" type="unspecified"/>
+        <pin num="9" name="4A" type="unspecified"/>
+        <pin num="10" name="5Y" type="unspecified"/>
+        <pin num="11" name="5A" type="unspecified"/>
+        <pin num="12" name="6Y" type="unspecified"/>
+        <pin num="13" name="6A" type="unspecified"/>
+        <pin num="14" name="VCC" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="SN74HC595DR">
+      <docs>http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC595DR</field>
+        <field name="Footprint">footprint:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</field>
+        <field name="Datasheet">http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf</field>
+        <field name="LCSC">C10092</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="unspecified"/>
+        <pin num="2" name="QC" type="unspecified"/>
+        <pin num="3" name="QD" type="unspecified"/>
+        <pin num="4" name="QE" type="unspecified"/>
+        <pin num="5" name="QF" type="unspecified"/>
+        <pin num="6" name="QG" type="unspecified"/>
+        <pin num="7" name="QH" type="unspecified"/>
+        <pin num="8" name="GND" type="unspecified"/>
+        <pin num="9" name="QH#" type="unspecified"/>
+        <pin num="10" name="SRCLR#" type="unspecified"/>
+        <pin num="11" name="SRCLK" type="unspecified"/>
+        <pin num="12" name="RCLK" type="unspecified"/>
+        <pin num="13" name="OE#" type="unspecified"/>
+        <pin num="14" name="SER" type="unspecified"/>
+        <pin num="15" name="QA" type="unspecified"/>
+        <pin num="16" name="VCC" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB" part="SZ421288N_64">
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20220310/56594458C5EED5BEAFFDE966345907D8.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SZ421288N_64</field>
+        <field name="Footprint">footprint:LED-SEG-TH_SZ421288N-64</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20220310/56594458C5EED5BEAFFDE966345907D8.pdf</field>
+        <field name="LCSC">C2980922</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+        <pin num="15" name="15" type="unspecified"/>
+        <pin num="16" name="16" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="JLCPCB">
+      <uri>D:/Program files/JLCPCB part list downloader/Reeds gedownloadet/JLC2KiCad_lib/Schematic/default_lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="SRCLR#" pintype="unspecified"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U5" pin="24" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U6" pin="10" pinfunction="SRCLR#" pintype="unspecified"/>
+      <node ref="U6" pin="16" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U7" pin="14" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U8" pin="14" pinfunction="VCC" pintype="unspecified"/>
+    </net>
+    <net code="2" name="16X16_MUX_A0">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="A0" pintype="unspecified"/>
+    </net>
+    <net code="3" name="16X16_MUX_A1">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="A1" pintype="unspecified"/>
+    </net>
+    <net code="4" name="16X16_MUX_A2">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="A2" pintype="unspecified"/>
+    </net>
+    <net code="5" name="16X16_MUX_A3">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="A3" pintype="unspecified"/>
+    </net>
+    <net code="6" name="16X16_shift_clock">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SRCLK" pintype="unspecified"/>
+      <node ref="U6" pin="11" pinfunction="SRCLK" pintype="unspecified"/>
+    </net>
+    <net code="7" name="16X16_shift_data_in">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SER" pintype="unspecified"/>
+    </net>
+    <net code="8" name="16X16_shift_output_enable">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="RCLK" pintype="unspecified"/>
+      <node ref="U6" pin="12" pinfunction="RCLK" pintype="unspecified"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="OE#" pintype="unspecified"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U11" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U12" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U13" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U14" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U15" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U16" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U17" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U18" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U19" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U20" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U21" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U22" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U23" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U24" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U25" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U26" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U5" pin="12" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U5" pin="18" pinfunction="E1#" pintype="unspecified"/>
+      <node ref="U5" pin="19" pinfunction="E2#" pintype="unspecified"/>
+      <node ref="U6" pin="13" pinfunction="OE#" pintype="unspecified"/>
+      <node ref="U6" pin="8" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U7" pin="11" pinfunction="5A" pintype="unspecified"/>
+      <node ref="U7" pin="13" pinfunction="6A" pintype="unspecified"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="QB" pintype="unspecified"/>
+    </net>
+    <net code="11" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="QC" pintype="unspecified"/>
+    </net>
+    <net code="12" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="QA" pintype="unspecified"/>
+    </net>
+    <net code="13" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="QD" pintype="unspecified"/>
+    </net>
+    <net code="14" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="QE" pintype="unspecified"/>
+    </net>
+    <net code="15" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="QF" pintype="unspecified"/>
+    </net>
+    <net code="16" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="QG" pintype="unspecified"/>
+    </net>
+    <net code="17" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="QH" pintype="unspecified"/>
+    </net>
+    <net code="18" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="QB" pintype="unspecified"/>
+    </net>
+    <net code="19" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="QC" pintype="unspecified"/>
+    </net>
+    <net code="20" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="QA" pintype="unspecified"/>
+    </net>
+    <net code="21" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="QD" pintype="unspecified"/>
+    </net>
+    <net code="22" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="QE" pintype="unspecified"/>
+    </net>
+    <net code="23" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="QF" pintype="unspecified"/>
+    </net>
+    <net code="24" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="QG" pintype="unspecified"/>
+    </net>
+    <net code="25" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="QH" pintype="unspecified"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="QH#" pintype="unspecified"/>
+      <node ref="U6" pin="14" pinfunction="SER" pintype="unspecified"/>
+    </net>
+    <net code="27" name="col_1">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="U9" pin="13" pinfunction="13" pintype="unspecified"/>
+    </net>
+    <net code="28" name="col_2">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U9" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="29" name="col_3">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U9" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="30" name="col_4">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="U9" pin="10" pinfunction="10" pintype="unspecified"/>
+    </net>
+    <net code="31" name="col_5">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U9" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="32" name="col_6">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="U9" pin="11" pinfunction="11" pintype="unspecified"/>
+    </net>
+    <net code="33" name="col_7">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="U9" pin="15" pinfunction="15" pintype="unspecified"/>
+    </net>
+    <net code="34" name="col_8">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="U9" pin="16" pinfunction="16" pintype="unspecified"/>
+    </net>
+    <net code="35" name="col_9">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U10" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="U4" pin="13" pinfunction="13" pintype="unspecified"/>
+    </net>
+    <net code="36" name="col_10">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U4" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="37" name="col_11">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U4" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="38" name="col_12">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="U4" pin="10" pinfunction="10" pintype="unspecified"/>
+    </net>
+    <net code="39" name="col_13">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U4" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="40" name="col_14">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U10" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="U4" pin="11" pinfunction="11" pintype="unspecified"/>
+    </net>
+    <net code="41" name="col_15">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U10" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="U4" pin="15" pinfunction="15" pintype="unspecified"/>
+    </net>
+    <net code="42" name="col_16">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U10" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="U4" pin="16" pinfunction="16" pintype="unspecified"/>
+    </net>
+    <net code="43" name="gate_row_1">
+      <node ref="U11" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U8" pin="2" pinfunction="1Y" pintype="unspecified"/>
+    </net>
+    <net code="44" name="gate_row_1_inv">
+      <node ref="U5" pin="1" pinfunction="Y0#" pintype="unspecified"/>
+      <node ref="U8" pin="1" pinfunction="1A" pintype="unspecified"/>
+    </net>
+    <net code="45" name="gate_row_2">
+      <node ref="U12" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U8" pin="4" pinfunction="2Y" pintype="unspecified"/>
+    </net>
+    <net code="46" name="gate_row_2_inv">
+      <node ref="U5" pin="2" pinfunction="Y1#" pintype="unspecified"/>
+      <node ref="U8" pin="3" pinfunction="2A" pintype="unspecified"/>
+    </net>
+    <net code="47" name="gate_row_3">
+      <node ref="U13" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U8" pin="6" pinfunction="3Y" pintype="unspecified"/>
+    </net>
+    <net code="48" name="gate_row_3_inv">
+      <node ref="U5" pin="3" pinfunction="Y2#" pintype="unspecified"/>
+      <node ref="U8" pin="5" pinfunction="3A" pintype="unspecified"/>
+    </net>
+    <net code="49" name="gate_row_4">
+      <node ref="U14" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U8" pin="8" pinfunction="4Y" pintype="unspecified"/>
+    </net>
+    <net code="50" name="gate_row_4_inv">
+      <node ref="U5" pin="4" pinfunction="Y3#" pintype="unspecified"/>
+      <node ref="U8" pin="9" pinfunction="4A" pintype="unspecified"/>
+    </net>
+    <net code="51" name="gate_row_5">
+      <node ref="U15" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U8" pin="10" pinfunction="5Y" pintype="unspecified"/>
+    </net>
+    <net code="52" name="gate_row_5_inv">
+      <node ref="U5" pin="5" pinfunction="Y4#" pintype="unspecified"/>
+      <node ref="U8" pin="11" pinfunction="5A" pintype="unspecified"/>
+    </net>
+    <net code="53" name="gate_row_6">
+      <node ref="U16" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U8" pin="12" pinfunction="6Y" pintype="unspecified"/>
+    </net>
+    <net code="54" name="gate_row_6_inv">
+      <node ref="U5" pin="6" pinfunction="Y5#" pintype="unspecified"/>
+      <node ref="U8" pin="13" pinfunction="6A" pintype="unspecified"/>
+    </net>
+    <net code="55" name="gate_row_7">
+      <node ref="U17" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="1Y" pintype="unspecified"/>
+    </net>
+    <net code="56" name="gate_row_7_inv">
+      <node ref="U2" pin="1" pinfunction="1A" pintype="unspecified"/>
+      <node ref="U5" pin="7" pinfunction="Y6#" pintype="unspecified"/>
+    </net>
+    <net code="57" name="gate_row_8">
+      <node ref="U18" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="2Y" pintype="unspecified"/>
+    </net>
+    <net code="58" name="gate_row_8_inv">
+      <node ref="U2" pin="3" pinfunction="2A" pintype="unspecified"/>
+      <node ref="U5" pin="8" pinfunction="Y7#" pintype="unspecified"/>
+    </net>
+    <net code="59" name="gate_row_9">
+      <node ref="U19" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U2" pin="6" pinfunction="3Y" pintype="unspecified"/>
+    </net>
+    <net code="60" name="gate_row_9_inv">
+      <node ref="U2" pin="5" pinfunction="3A" pintype="unspecified"/>
+      <node ref="U5" pin="9" pinfunction="Y8#" pintype="unspecified"/>
+    </net>
+    <net code="61" name="gate_row_10">
+      <node ref="U2" pin="8" pinfunction="4Y" pintype="unspecified"/>
+      <node ref="U20" pin="1" pinfunction="G" pintype="unspecified"/>
+    </net>
+    <net code="62" name="gate_row_10_inv">
+      <node ref="U2" pin="9" pinfunction="4A" pintype="unspecified"/>
+      <node ref="U5" pin="10" pinfunction="Y9#" pintype="unspecified"/>
+    </net>
+    <net code="63" name="gate_row_11">
+      <node ref="U2" pin="10" pinfunction="5Y" pintype="unspecified"/>
+      <node ref="U21" pin="1" pinfunction="G" pintype="unspecified"/>
+    </net>
+    <net code="64" name="gate_row_11_inv">
+      <node ref="U2" pin="11" pinfunction="5A" pintype="unspecified"/>
+      <node ref="U5" pin="11" pinfunction="Y10#" pintype="unspecified"/>
+    </net>
+    <net code="65" name="gate_row_12">
+      <node ref="U2" pin="12" pinfunction="6Y" pintype="unspecified"/>
+      <node ref="U22" pin="1" pinfunction="G" pintype="unspecified"/>
+    </net>
+    <net code="66" name="gate_row_12_inv">
+      <node ref="U2" pin="13" pinfunction="6A" pintype="unspecified"/>
+      <node ref="U5" pin="13" pinfunction="Y11#" pintype="unspecified"/>
+    </net>
+    <net code="67" name="gate_row_13">
+      <node ref="U23" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U7" pin="2" pinfunction="1Y" pintype="unspecified"/>
+    </net>
+    <net code="68" name="gate_row_13_inv">
+      <node ref="U5" pin="14" pinfunction="Y12#" pintype="unspecified"/>
+      <node ref="U7" pin="1" pinfunction="1A" pintype="unspecified"/>
+    </net>
+    <net code="69" name="gate_row_14">
+      <node ref="U24" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U7" pin="4" pinfunction="2Y" pintype="unspecified"/>
+    </net>
+    <net code="70" name="gate_row_14_inv">
+      <node ref="U5" pin="15" pinfunction="Y13#" pintype="unspecified"/>
+      <node ref="U7" pin="3" pinfunction="2A" pintype="unspecified"/>
+    </net>
+    <net code="71" name="gate_row_15">
+      <node ref="U25" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U7" pin="6" pinfunction="3Y" pintype="unspecified"/>
+    </net>
+    <net code="72" name="gate_row_15_inv">
+      <node ref="U5" pin="16" pinfunction="Y14#" pintype="unspecified"/>
+      <node ref="U7" pin="5" pinfunction="3A" pintype="unspecified"/>
+    </net>
+    <net code="73" name="gate_row_16">
+      <node ref="U26" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U7" pin="8" pinfunction="4Y" pintype="unspecified"/>
+    </net>
+    <net code="74" name="gate_row_16_inv">
+      <node ref="U5" pin="17" pinfunction="Y15#" pintype="unspecified"/>
+      <node ref="U7" pin="9" pinfunction="4A" pintype="unspecified"/>
+    </net>
+    <net code="75" name="row_1">
+      <node ref="U11" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="U4" pin="9" pinfunction="9" pintype="unspecified"/>
+    </net>
+    <net code="76" name="row_2">
+      <node ref="U12" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="U4" pin="14" pinfunction="14" pintype="unspecified"/>
+    </net>
+    <net code="77" name="row_3">
+      <node ref="U13" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="U4" pin="8" pinfunction="8" pintype="unspecified"/>
+    </net>
+    <net code="78" name="row_4">
+      <node ref="U14" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="U4" pin="12" pinfunction="12" pintype="unspecified"/>
+    </net>
+    <net code="79" name="row_5">
+      <node ref="U15" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U4" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="80" name="row_6">
+      <node ref="U16" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="U4" pin="7" pinfunction="7" pintype="unspecified"/>
+    </net>
+    <net code="81" name="row_7">
+      <node ref="U17" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U4" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="82" name="row_8">
+      <node ref="U18" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U3" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U4" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="83" name="row_9">
+      <node ref="U10" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="U19" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="9" pinfunction="9" pintype="unspecified"/>
+    </net>
+    <net code="84" name="row_10">
+      <node ref="U10" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="U20" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="14" pinfunction="14" pintype="unspecified"/>
+    </net>
+    <net code="85" name="row_11">
+      <node ref="U10" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="U21" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="8" pinfunction="8" pintype="unspecified"/>
+    </net>
+    <net code="86" name="row_12">
+      <node ref="U10" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="U22" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="12" pinfunction="12" pintype="unspecified"/>
+    </net>
+    <net code="87" name="row_13">
+      <node ref="U10" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U23" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="88" name="row_14">
+      <node ref="U10" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="U24" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="7" pinfunction="7" pintype="unspecified"/>
+    </net>
+    <net code="89" name="row_15">
+      <node ref="U10" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U25" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="90" name="row_16">
+      <node ref="U10" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="U26" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U9" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="91" name="unconnected-(U6-Pad9)">
+      <node ref="U6" pin="9" pinfunction="QH#" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U7-Pad10)">
+      <node ref="U7" pin="10" pinfunction="5Y" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U7-Pad12)">
+      <node ref="U7" pin="12" pinfunction="6Y" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>
