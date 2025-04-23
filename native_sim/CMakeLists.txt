@@ -24,10 +24,12 @@ endif()
 
 FILE(GLOB app_sources "src/*.c" )       # common source files (both the sim and the real deal)
 FILE(GLOB states "states/src/*.c" )
+FILE(GLOB tests "tests/src/*.c" )       # Specifically for testing, might not be necessary later.
 
 target_sources(app PRIVATE 
     ${app_sources}
     ${states}
+    ${tests}        # Specifically for testing, might not be necessary later.
     
     ${specific_sources}
     ${hardware}
@@ -36,6 +38,7 @@ target_sources(app PRIVATE
 target_include_directories(app PRIVATE 
         ${CMAKE_CURRENT_SOURCE_DIR}/inc
         ${CMAKE_CURRENT_SOURCE_DIR}/states/inc
+        ${CMAKE_CURRENT_SOURCE_DIR}/tests/inc   # Specifically for testing, might not be necessary later.
 )
 
 message(STATUS "\n CMAKE DEBUG INFO \n Sources: ${app_sources}")

@@ -182,6 +182,8 @@ uint8_t buttons4x4Init()
  * @return Returns 0 when the button is pressed
  * Returns a 1 if the button is not pressed
  * Returns a 2 when trying to access a button that does not exist
+ * 
+ * @note TODO: CORRECT THIS TO ALIGN WITH ZEPHYR STANDARDS!!!
  */ 
 uint8_t buttons4x4Get(uint8_t selectedbtn)
 {	

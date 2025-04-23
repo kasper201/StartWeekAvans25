@@ -12,6 +12,11 @@
 #include <string.h>
 #include <zephyr/kernel.h>
 
+////////////////////////////////////////////////////////////////////
+/// TESTING!!!
+#include "testHandler.h"
+///////////////////////////////////////////////////////////////////
+
 #include "statemachine.h"
 #include "threads.h"
 
@@ -21,8 +26,6 @@
 #include <lvgl_input_device.h>
 
 #endif
-
-
 
 
 
@@ -70,6 +73,18 @@ int tmain() // Core thread
 
 	printf("Main\n");
 	#endif
+
+	///////////////////////////////////////////////////
+	/// TEST before statemachine
+
+	if(handleTests() != 0)
+	{
+		printk("Error!\n");
+	}
+	
+	///////////////////////////////////////////////////
+
+
 	startStatemachine();
 
 	return 0;
