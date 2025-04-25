@@ -50,7 +50,7 @@ void showButton(uint8_t btn)
 	data[3] = 0b00001001;
 		break;
 	default:
-		//should not reach
+		//value 5 resets the thing 
 		break;
 	}	
 	btnmatrix_outSetMutexValue(data);

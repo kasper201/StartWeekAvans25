@@ -15,11 +15,13 @@
 #include "statemachine.h"
 #include "threads.h"
 
+
 #ifdef CONFIG_BOARD_NATIVE_SIM
 #include "lvgl_ui.h"
 #include <lvgl.h>
 #include <lvgl_input_device.h>
-
+#else
+#include "SD.h"
 #endif
 
 
@@ -69,7 +71,10 @@ int tmain() // Core thread
 	setup_ui(lv_scr_act());
 
 	printf("Main\n");
+	#else
+	testSD();
 	#endif
+
 	startStatemachine();
 
 	return 0;
