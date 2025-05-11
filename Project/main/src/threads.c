@@ -8,6 +8,7 @@ uint32_t Startupdelay = 120000;
 // Define the threads
 // Input threads
 K_THREAD_DEFINE(tstartbutton_id, STACKSIZE, tstartbutton, NULL, NULL, NULL, TSTARTBUTTON_PRIORITY, 0,0);
+K_THREAD_DEFINE(tgps_id, STACKSIZE, tgps, NULL, NULL, NULL, TGPS_PRIORITY, 0, 0);
 K_THREAD_DEFINE(tbtnmatrix_in_id, STACKSIZE, tbtnmatrix_in, NULL, NULL, NULL, TBTNMATRIX_IN_PRIORITY, 0, 0);
 K_THREAD_DEFINE(tswitches_id, STACKSIZE, tswitches, NULL, NULL, NULL, TSWITCHES_PRIORITY, 0, 0);
 K_THREAD_DEFINE(tpotmeter_id, STACKSIZE, tpotmeter, NULL, NULL, NULL, TPOTMETER_PRIORITY, 0, 0);
@@ -24,6 +25,25 @@ K_THREAD_DEFINE(tsevenseg_id, STACKSIZE, tsevenseg, NULL, NULL, NULL, TSEVENSEG_
 K_MUTEX_DEFINE(startbuttonMutex);// Mutex
 uint8_t startbuttonMutexValue = 0; // MutexValue (Protected)
 uint8_t startbuttonMutexValueRet = 0; // Return value for mutexValue (Not protected)
+
+K_MUTEX_DEFINE(gpsMutex); // Mutex
+int64_t gpsMutexValue[2] = {0,0}; // MutexValue (Protected)
+int64_t gpsMutexValueRet[2] = {0,0}; // Return value for mutexValue (Not protected)
+
+K_MUTEX_DEFINE(gyroMutex); // Mutex
+int16_t gyroMutexMagnetoValue[3] = {0,0,0}; // MutexValue (Protected)
+int16_t gyroMutexAccelValue[3] = {0,0,0}; // MutexValue (Protected)
+int		gyroMutexRollValue = 0; // MutexValue (Protected)
+int		gyroMutexPitchValue = 0; // MutexValue (Protected)
+int		gyroMutexHeadingValue = 0; // MutexValue (Protected)
+float	gyroMutexGyroValue[3] = {0,0,0}; // MutexValue (Protected)
+
+int16_t gyroMutexMagnetoValueRet[3] = {0,0,0}; // Return value for mutexValue (Not protected)
+int16_t gyroMutexAccelValueRet[3] = {0,0,0}; // Return value for mutexValue (Not protected)
+int		gyroMutexRollValueRet = 0; // Return value for mutexValue (Not protected)
+int		gyroMutexPitchValueRet = 0; // Return value for mutexValue (Not protected)
+int		gyroMutexHeadingValueRet = 0; // Return value for mutexValue (Not protected)
+float	gyroMutexGyroValueRet[3] = {0,0,0}; // Return value for mutexValue (Not protected)
 
 K_MUTEX_DEFINE(btnmatrix_inMutex);// Mutex
 uint8_t btnmatrix_inMutexValue[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; // MutexValue (Protected)
@@ -98,7 +118,184 @@ void tstartbutton(void) {
 	}
 }
 
-uint8_t* btnmatrix_inGetMutexValue()
+/**
+* @brief Get the mutex value of the gps
+* @returns the gpsMutexValue
+*/
+int64_t* gpsGetMutexValue()
+{
+    if (k_mutex_lock(&gpsMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
+    {
+        for (uint8_t i = 0; i < 2; i++)
+        {
+            gpsMutexValueRet[i] = gpsMutexValue[i]; //access protected value
+        }
+        k_mutex_unlock(&gpsMutex);
+    }
+    else
+    {
+        printf("Cannot lock gps\n");
+    }
+    return gpsMutexValueRet; //Return unprotected value
+}
+
+/**
+* @brief Thread to get the gps data
+*/
+void tgps(void) {
+	k_msleep(Startupdelay);
+	int64_t values[2] = {0,0};// Value to decrease locking amount
+	while (true)
+	{
+		if(values[0] != getLatitude() || values[1] != getLongitude())
+        {
+            values[0] = getLatitude();
+			values[1] = getLongitude();
+			k_mutex_lock(&gpsMutex, K_FOREVER); // wait forever until mutex is available
+			memcpy(gpsMutexValue, values, sizeof(int64_t));
+			k_mutex_unlock(&gpsMutex);
+        }
+        k_msleep(1000);
+	}
+}
+
+int16_t *gyroGetMutexValue()
+{
+	if (k_mutex_lock(&gyroMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
+	{
+		for (uint8_t i = 0; i < 3; i++)
+		{
+			gyroMutexMagnetoValueRet[i] = gyroMutexMagnetoValue[i]; //access protected value
+			gyroMutexAccelValueRet[i] = gyroMutexAccelValue[i]; //access protected value
+			gyroMutexGyroValueRet[i] = gyroMutexGyroValue[i]; //access protected value
+		}
+		k_mutex_unlock(&gyroMutex);
+	}
+	else
+	{
+		printf("Cannot lock gyro\n");
+	}
+	return gyroMutexMagnetoValueRet; //Return unprotected value
+}
+
+int gyroGetRollMutexValue()
+{
+	if (k_mutex_lock(&gyroMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
+	{
+		gyroMutexRollValueRet = gyroMutexRollValue; //access protected value
+		k_mutex_unlock(&gyroMutex);
+	}
+	else
+	{
+		printf("Cannot lock gyro\n");
+	}
+	return gyroMutexRollValueRet; //Return unprotected value
+}
+
+int gyroGetPitchMutexValue()
+{
+	if (k_mutex_lock(&gyroMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
+	{
+		gyroMutexPitchValueRet = gyroMutexPitchValue; //access protected value
+		k_mutex_unlock(&gyroMutex);
+	}
+	else
+	{
+		printf("Cannot lock gyro\n");
+	}
+	return gyroMutexPitchValueRet; //Return unprotected value
+}
+
+int gyroGetHeadingMutexValue()
+{
+	if (k_mutex_lock(&gyroMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
+	{
+		gyroMutexHeadingValueRet = gyroMutexHeadingValue; //access protected value
+		k_mutex_unlock(&gyroMutex);
+	}
+	else
+	{
+		printf("Cannot lock gyro\n");
+	}
+	return gyroMutexHeadingValueRet; //Return unprotected value
+}
+
+void tgyro(void)
+{
+	uint8_t err = 0;
+	k_msleep(Startupdelay);
+
+	int16_t magneto[3] = {0, 0, 0};
+	int16_t acceleration[3] = {0, 0, 0};
+	float gyro[3] = {0, 0, 0};
+	int values[3] = {0, 0, 0};
+
+	int16_t prevMagneto[3] = {0, 0, 0};
+	int16_t prevAccel[3] = {0, 0, 0};
+	float prevGyro[3] = {0, 0, 0};
+	int prevValues[3] = {0, 0, 0};
+
+	while (true)
+	{
+		// Fetch sensor data
+		err = magnetometer_get_magneto(magneto);
+		if (err != 0)
+			printf("Error in magnetometer_get_magneto: %d\n", err);
+
+		err = gyroscope_get_acceleration(acceleration);
+		if (err != 0)
+			printf("Error in gyroscope_get_acceleration: %d\n", err);
+
+		err = gyroscope_get_gyro(gyro);
+		if (err != 0)
+			printf("Error in gyroscope_get_gyro: %d\n", err);
+
+		err = gyroscope_get_roll(&values[0]);
+		if (err != 0)
+			printf("Error in gyroscope_get_roll: %d\n", err);
+
+		err = gyroscope_get_pitch(&values[1]);
+		if (err != 0)
+			printf("Error in gyroscope_get_pitch: %d\n", err);
+
+		err = gyroCompass_get_heading(&values[2]);
+		if (err != 0)
+			printf("Error in gyroCompass_get_heading: %d\n", err);
+
+		// Check for changes and update protected values
+		bool updated = false;
+		for (int i = 0; i < 3; i++)
+		{
+			if (magneto[i] != prevMagneto[i] || acceleration[i] != prevAccel[i] || gyro[i] != prevGyro[i] || values[i] != prevValues[i])
+			{
+				updated = true;
+				prevMagneto[i] = magneto[i];
+				prevAccel[i] = acceleration[i];
+				prevGyro[i] = gyro[i];
+				prevValues[i] = values[i];
+			}
+		}
+
+		if (updated)
+		{
+			k_mutex_lock(&gyroMutex, K_FOREVER);
+			memcpy(gyroMutexMagnetoValue, magneto, sizeof(magneto));
+			memcpy(gyroMutexAccelValue, acceleration, sizeof(acceleration));
+			memcpy(gyroMutexGyroValue, gyro, sizeof(gyro));
+			gyroMutexRollValue = values[0];
+			gyroMutexPitchValue = values[1];
+			gyroMutexHeadingValue = values[2];
+			k_mutex_unlock(&gyroMutex);
+		}
+
+		k_msleep(1000); // Adjust delay based on sensor requirements
+	}
+}
+
+/**
+* @brief Get the mutex value of the btnmatrix
+*/
+uint8_t *btnmatrix_inGetMutexValue()
 {
 	if (k_mutex_lock(&btnmatrix_inMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
 	{
@@ -106,16 +303,19 @@ uint8_t* btnmatrix_inGetMutexValue()
 		{
 			btnmatrix_inMutexValueRet[i] = btnmatrix_inMutexValue[i]; //access protected value
 		}
-		k_mutex_unlock(&btnmatrix_inMutex);	
-	} 
-	else 
+		k_mutex_unlock(&btnmatrix_inMutex);
+	} else
 	{
 		printf("Cannot lock btnmatrix_in\n");
 	}
 	return btnmatrix_inMutexValueRet; //Return unprotected value
 }
 
-void tbtnmatrix_in(void) { 
+/**
+* @brief Thread to get the btnmatrix data
+*/
+void tbtnmatrix_in(void)
+{
 	k_msleep(Startupdelay); //startup sleep for main thread
 	uint8_t values[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};// Value to decrease locking amount
 	while (1) 

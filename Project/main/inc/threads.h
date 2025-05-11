@@ -26,7 +26,8 @@ extern uint32_t Startupdelay;
 
 // Thread priority values (lower value is higher priority)
 #define TSTARTBUTTON_PRIORITY 7
-#define TGYRO_PRIORITY 7
+#define TGPS_PRIORITY 7
+#define TGYRO_PRIORITY 8
 #define TBTNMATRIX_OUT_PRIORITY 4
 #define TBTNMATRIX_IN_PRIORITY 7
 #define TSWITCHES_PRIORITY 7
@@ -39,6 +40,7 @@ extern uint32_t Startupdelay;
 
 // Thread IDs
 extern const k_tid_t tstartbutton_id;
+extern const k_tid_t tgps_id;
 extern const k_tid_t tgyro_id;
 extern const k_tid_t tbtnmatrix_out_id;
 extern const k_tid_t tbtnmatrix_in_id;
@@ -53,6 +55,7 @@ extern const k_tid_t tabcbtn_id;
 // Define the thread functions
 // Input thread functions
 void tstartbutton(void);
+void tgps(void);
 void tgyro(void);
 void tbtnmatrix_in(void);
 void tswitches(void);
@@ -74,6 +77,13 @@ void disableAllThreads();
 
 //mutex protect functions
 uint8_t startbuttonGetMutexValue();
+int64_t* gpsGetMutexValue();
+int16_t* gyroGetMutexMagnetoValue();
+int16_t* gyroGetMutexAccelValue();
+int gyroGetMutexRollValue();
+int gyroGetMutexPitchValue();
+int gyroGetMutexHeadingValue();
+float* gyroGetMutexGyroValue();
 uint8_t* btnmatrix_inGetMutexValue();
 uint8_t* switchesGetMutexValue();
 int32_t potmeterGetMutexValue();
