@@ -71,7 +71,8 @@ void idle_state(struct state *state) {
 		printf("Going to exit state\n");
 		state->next = exit_state;
 	} else {
-		state->next = minigame_states[ret];
+		// state->next = minigame_states[ret];
+		state->next = minigame_states[0];
 	}
 }
 

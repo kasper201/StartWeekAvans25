@@ -78,7 +78,8 @@ void disableAllThreads();
 //mutex protect functions
 uint8_t startbuttonGetMutexValue();
 int64_t* gpsGetMutexValue();
-int16_t* gyroGetMutexValue();
+int16_t* gyroGetMagnetoMutexValue();
+int16_t* gyroGetAccelMutexValue();
 int gyroGetRollMutexValue();
 int gyroGetPitchMutexValue();
 int gyroGetHeadingMutexValue();

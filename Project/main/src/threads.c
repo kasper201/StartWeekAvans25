@@ -9,6 +9,7 @@ uint32_t Startupdelay = 120000;
 // Input threads
 K_THREAD_DEFINE(tstartbutton_id, STACKSIZE, tstartbutton, NULL, NULL, NULL, TSTARTBUTTON_PRIORITY, 0,0);
 K_THREAD_DEFINE(tgps_id, STACKSIZE, tgps, NULL, NULL, NULL, TGPS_PRIORITY, 0, 0);
+K_THREAD_DEFINE(tgyro_id, STACKSIZE, tgyro, NULL, NULL, NULL, TGYRO_PRIORITY, 0, 0);
 K_THREAD_DEFINE(tbtnmatrix_in_id, STACKSIZE, tbtnmatrix_in, NULL, NULL, NULL, TBTNMATRIX_IN_PRIORITY, 0, 0);
 K_THREAD_DEFINE(tswitches_id, STACKSIZE, tswitches, NULL, NULL, NULL, TSWITCHES_PRIORITY, 0, 0);
 K_THREAD_DEFINE(tpotmeter_id, STACKSIZE, tpotmeter, NULL, NULL, NULL, TPOTMETER_PRIORITY, 0, 0);
@@ -152,22 +153,21 @@ void tgps(void) {
             values[0] = getLatitude();
 			values[1] = getLongitude();
 			k_mutex_lock(&gpsMutex, K_FOREVER); // wait forever until mutex is available
-			memcpy(gpsMutexValue, values, sizeof(int64_t));
+			gpsMutexValue[0] = values[0];
+			gpsMutexValue[1] = values[1];
 			k_mutex_unlock(&gpsMutex);
         }
         k_msleep(1000);
 	}
 }
 
-int16_t *gyroGetMutexValue()
+int16_t *gyroGetMagnetoMutexValue()
 {
 	if (k_mutex_lock(&gyroMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
 	{
 		for (uint8_t i = 0; i < 3; i++)
 		{
 			gyroMutexMagnetoValueRet[i] = gyroMutexMagnetoValue[i]; //access protected value
-			gyroMutexAccelValueRet[i] = gyroMutexAccelValue[i]; //access protected value
-			gyroMutexGyroValueRet[i] = gyroMutexGyroValue[i]; //access protected value
 		}
 		k_mutex_unlock(&gyroMutex);
 	}
@@ -176,6 +176,23 @@ int16_t *gyroGetMutexValue()
 		printf("Cannot lock gyro\n");
 	}
 	return gyroMutexMagnetoValueRet; //Return unprotected value
+}
+
+int16_t *gyroGetAccelMutexValue()
+{
+	if (k_mutex_lock(&gyroMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
+	{
+		for (uint8_t i = 0; i < 3; i++)
+		{
+			gyroMutexAccelValueRet[i] = gyroMutexAccelValue[i]; //access protected value
+		}
+		k_mutex_unlock(&gyroMutex);
+	}
+	else
+	{
+		printf("Cannot lock gyro\n");
+	}
+	return gyroMutexAccelValueRet; //Return unprotected value
 }
 
 int gyroGetRollMutexValue()
@@ -665,6 +682,16 @@ void setThread(char* name, bool state) {
 	if (strcmp(name, "sevenseg") == 0) {
 		extern const k_tid_t tsevenseg_id;
 		state ? k_thread_resume(tsevenseg_id) : k_thread_suspend(tsevenseg_id);
+		return;
+	}
+	if (strcmp(name, "gps") == 0) {
+		extern const k_tid_t tgps_id;
+		state ? k_thread_resume(tgps_id) : k_thread_suspend(tgps_id);
+		return;
+	}
+	if (strcmp(name, "gyro") == 0) {
+		extern const k_tid_t tgyro_id;
+		state ? k_thread_resume(tgyro_id) : k_thread_suspend(tgyro_id);
 		return;
 	}
 	printf("Unknown thread: %s\n", name);
