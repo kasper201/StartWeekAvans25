@@ -220,6 +220,23 @@ int gyroGetHeadingMutexValue()
 	return gyroMutexHeadingValueRet; //Return unprotected value
 }
 
+float *gyroGetMutexGyroValue()
+{
+	if (k_mutex_lock(&gyroMutex, K_MSEC(100)) == 0) //Check if mutex is not locked by another thread
+	{
+		for (uint8_t i = 0; i < 3; i++)
+		{
+			gyroMutexGyroValueRet[i] = gyroMutexGyroValue[i]; //access protected value
+		}
+		k_mutex_unlock(&gyroMutex);
+	}
+	else
+	{
+		printf("Cannot lock gyro\n");
+	}
+	return gyroMutexGyroValueRet; //Return unprotected value
+}
+
 void tgyro(void)
 {
 	uint8_t err = 0;
