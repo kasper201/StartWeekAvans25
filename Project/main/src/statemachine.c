@@ -1,4 +1,19 @@
 // Includes: own header file, hardware headers, minigame headers, framework headers, system headers (sorted alpabetically)
+#include "statemachine.h"
+#include "threads.h"
+
+#include "idle.h"
+#include "minigame1.h"
+#include "minigame2.h"
+#include "minigame3.h"
+#include "minigame4.h"
+#include "minigame5.h"
+#include "minigame6.h"
+#include "minigame7.h"
+#include "minigame8.h"
+#include "minigame9.h"
+#include "minigame10.h"
+
 #include <zephyr/device.h>
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/kernel.h>
@@ -6,17 +21,9 @@
 #include <zephyr/sys/printk.h>
 
 #include <stdio.h>
-
-#include "statemachine.h"
-#include "threads.h"
-
-#include "idle.h"
-#include "minigame2.h"
-#include "minigame4.h"
-#include "minigame6.h"
-
 // for testing
 #include "SD.h"
+
 
 
 // Setup state machine
@@ -37,9 +44,8 @@ state_fn* minigame_states[] = {
 
 // State functions
 void init_state(struct state *state) {
-	printk("Initialization\n");
+	printf("Initialization\n");
 	disableAllThreads();
-
 	uint8_t ret = 0;
 	ret = configure();
 	if(ret != 0)
@@ -52,6 +58,7 @@ void init_state(struct state *state) {
 	initialize();
 	while(true){
 		testSD();  ///SUPER BLOCKING REMOVE THIS ASAP.
+		
 	}
 	Startupdelay = 0;
 	state->next = idle_state;
@@ -64,174 +71,170 @@ void idle_state(struct state *state) {
 	enableThreads(names, amount);
 	int ret = playIdle();
 	disableThreads(names, amount);
-	printk("idle state\n");
 
 	if (ret < -1 || ret > 9) {
-		printk("Error in idle state\n");
+		printf("Error in idle state\n");
 		state->next = 0;
 	} else if (ret == -1) {
-		printk("Going to exit state\n");
+		printf("Going to exit state\n");
 		state->next = exit_state;
 	} else {
 		state->next = minigame_states[ret];
 	}
-	printk("idle state exit\n");
 }
 
 void mg1_state(struct state *state) { // Makes use of button and led
 	// Initialise state, enable and disable corresponding threads
-	printk("Minigame 1\n");
+	printf("Minigame 1\n");
 
-/*	char **names;
+	char **names;
 	unsigned amount;
- 	getMg1Threads(&names, &amount);
+	getMg1Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg1();
+	playMg1();
 
-	disableThreads(names, amount); */
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void mg2_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 2\n");
+	printf("Minigame 2\n");
 
 	char **names;
 	unsigned amount;
 	getMg2Threads(&names, &amount);
 	enableThreads(names, amount);
-	printk("Minigame 2 threads enabled\n");
 
-	int ret = playMg2();
+	playMg2();
 
 	disableThreads(names, amount);
-	printk("Minigame 2 threads disabled\n");
 
 	state->next = idle_state;
 }
 
 void mg3_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 3\n");
+	printf("Minigame 3\n");
 
-/*	char **names;
+	char **names;
 	unsigned amount;
- 	getMg3Threads(&names, &amount);
+	getMg3Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg3();
+	playMg3();
 
-	disableThreads(names, amount); */
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void mg4_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 4\n");
+	printf("Minigame 4\n");
 
 	char **names;
 	unsigned amount;
- 	getMg4Threads(&names, &amount);
+	getMg4Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg4();
+	playMg4();
 
-	disableThreads(names, amount); 
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void mg5_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 5\n");
+	printf("Minigame 5\n");
 
- /* char **names;
+	char **names;
 	unsigned amount;
- 	getMg5Threads(&names, &amount);
+	getMg5Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg5();
+	playMg5();
 
-	disableThreads(names, amount); */
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void mg6_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 6\n");
+	printf("Minigame 6\n");
 
 	char **names;
 	unsigned amount;
 	getMg6Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg6();
+	playMg6();
 
 	disableThreads(names, amount);
 	state->next = idle_state;
 }
 
 void mg7_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 7\n");
+	printf("Minigame 7\n");
 
-/* 	char **names;
+	char **names;
 	unsigned amount;
 	getMg7Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg7();
+	playMg7();
 
-	disableThreads(names, amount); */
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void mg8_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 8\n");
+	printf("Minigame 8\n");
 
-/* 	char **names;
+	char **names;
 	unsigned amount;
- 	getMg8Threads(&names, &amount);
+	getMg8Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg8();
+	playMg8();
 
-	disableThreads(names, amount); */
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void mg9_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 9\n");
+	printf("Minigame 9\n");
 
-/* 	char **names;
+	char **names;
 	unsigned amount;
- 	getMg9Threads(&names, &amount);
+	getMg9Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg9();
+	playMg9();
 
-	disableThreads(names, amount); */
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void mg10_state(struct state *state) { // Makes use of gyro and buzzer
-	printk("Minigame 10\n");
+	printf("Minigame 10\n");
 
-/* 	char **names;
+	char **names;
 	unsigned amount;
- 	getMg10Threads(&names, &amount);
+	getMg10Threads(&names, &amount);
 	enableThreads(names, amount);
 
-	int ret = playMg10();
+	playMg10();
 
-	disableThreads(names, amount); */
+	disableThreads(names, amount);
 
 	state->next = idle_state;
 }
 
 void exit_state(struct state *state) {
-	printk("Exit state");
+	printf("Exit state");
 	disableAllThreads(); // Shouldn't be required, but just to be sure
 	state->next = 0;
 }

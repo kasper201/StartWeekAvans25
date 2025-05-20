@@ -14,6 +14,7 @@
 
 #include "statemachine.h"
 #include "threads.h"
+#include "SD.h"
 
 
 #ifdef CONFIG_BOARD_NATIVE_SIM

@@ -53,12 +53,16 @@
 			spi1_miso_pa6: spi1_miso_pa6 {
 				status = "disabled";
 			};
-			spi1_mosi_pb5: spi1_mosi_pb5 {
+			spi1_mosi_pb5: spi1_mosi_pb5 { 
 				status = "disabled";
 			};
 			spi1_sck_pa5: spi1_sck_pa5 {
 				status = "disabled";
 			};
+
+
+
+
 			tim12_ch1_pb14: tim12_ch1_pb14 {
 				status = "disabled";
 			};
@@ -126,6 +130,19 @@
 			};
 			tim5_ch2_pa1: tim5_ch2_pa1{
 				pinmux = <STM32_PINMUX('a', 1, AF2)>;
+				status = "okay";
+			};
+			
+			spi4_nss_pe11: spi4_nss_pe11 {
+				status = "okay";
+			};
+			spi4_miso_pe13: spi4_miso_pe13 {
+				status = "okay";
+			};
+			spi4_mosi_pe14: spi4_mosi_pe14 { 
+				status = "okay";
+			};
+			spi4_sck_pe12: spi4_sck_pe12 {
 				status = "okay";
 			};
 		};
@@ -365,7 +382,18 @@
 		interupt_3d_compass: gpioa_8 {
 			gpios = <&gpioa 8 GPIO_PULL_UP>;
 		};
-
+		pe11_cs: cs_pe11 {
+    		gpios = <&gpioe 11 GPIO_ACTIVE_LOW>;
+		};
+		pe12_spiclk: spiclk_pe12 {
+    		gpios = <&gpioe 12 GPIO_ACTIVE_LOW>;
+		};
+		pe13_spimiso: spimiso_pe13 {
+    		gpios = <&gpioe 13 GPIO_ACTIVE_LOW>;
+		};
+		pe13_spimosi14: spimosi1_pe14 {
+    		gpios = <&gpioe 14 GPIO_ACTIVE_LOW>;
+		};
 	};
 
 	aliases {
@@ -540,6 +568,22 @@
         current-speed = <115200>;
         status = "okay";
 };
+
+/*
+&spi4 {
+    status = "okay";
+	pinctrl-0 = <&spi4_nss_pe11>;
+	pinctrl-names = "default";
+    //cs-gpios = <&gpioc 11 GPIO_ACTIVE_LOW>; 
+
+    sdcard@0 {
+        compatible = "zephyr,sdmmc-disk";
+        reg = <0>;  // Chip select 0
+        label = "SD";
+        spi-max-frequency = <8000000>;
+        status = "okay";
+    };
+};*/
 
 
 &i2c1{
