@@ -21,10 +21,6 @@
 #include <zephyr/sys/printk.h>
 
 #include <stdio.h>
-// for testing
-#include "SD.h"
-
-
 
 // Setup state machine
 struct state;
@@ -56,10 +52,6 @@ void init_state(struct state *state) {
 		}
 	}
 	initialize();
-	while(true){
-		testSD();  ///SUPER BLOCKING REMOVE THIS ASAP.
-		
-	}
 	Startupdelay = 0;
 	state->next = idle_state;
 }
