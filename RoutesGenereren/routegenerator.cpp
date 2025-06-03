@@ -19,6 +19,8 @@ const float WALKING_SPEED_PX_PER_MIN = 84.0f; // 1.4 m/s → 84 px/min
 struct Point {
     float x, y;
     float cost = 1.0f; // tijd op locatie in minuten
+
+    Point(float x, float y, float cost = 1.0f) : x(x), y(y), cost(cost) {}
 };
 
 bool operator==(const Point& a, const Point& b) {

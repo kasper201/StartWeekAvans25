@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+/build-RoutesGenereren-Qt_5_15_2_mingw81_32-Debug/
+/RoutesGenereren/RoutesGenereren.pro.user.6737c63
