@@ -32,6 +32,7 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+    void pushButton_2_clicked();
 
     void openSerialPort();
     void closeSerialPort();
@@ -45,7 +46,6 @@ private slots:
 
 private:
     void initActionsConnections();
-    void initializeDropboxes();
 
 private:
     void showStatusMessage(const QString &message);

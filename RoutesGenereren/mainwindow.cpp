@@ -45,6 +45,8 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(m_serial, &QSerialPort::errorOccurred, this, &MainWindow::handleError);
     connect(m_serial, &QSerialPort::readyRead, this, &MainWindow::readData);
     connect(m_console, &Console::getData, this, &MainWindow::writeData);
+
+    QObject::connect(m_ui->pushButton_2, SIGNAL(pressed()), this, SLOT(pushButton_2_clicked()));
 }
 
 MainWindow::~MainWindow()
@@ -67,6 +69,12 @@ void MainWindow::on_pushButton_clicked()
                 m_ui->statusLabel->setText("Routes succesvol gegenereerd!");
             }, Qt::QueuedConnection);
     });
+}
+
+void MainWindow::pushButton_2_clicked()
+{
+    QByteArray dataToSend("help \r\n");
+    writeData(dataToSend);
 }
 
 void MainWindow::openSerialPort()
@@ -115,51 +123,19 @@ void MainWindow::about()
 
 void MainWindow::writeData(const QByteArray &data)
 {
-    const qint64 written = m_serial->write(data);
-    if (written == data.size()) {
-        m_bytesToWrite += written;
-        m_timer->start(kWriteTimeout);
-    } else {
-        const QString error = tr("Failed to write all data to port %1.\n"
-                                 "Error: %2").arg(m_serial->portName(),
-                                       m_serial->errorString());
-        showWriteError(error);
-    }
+    m_serial->write(data);
 }
 
 void MainWindow::readData()
 {
-    //const QByteArray data = m_serial->readAll();
-    // Read data
-    static QByteArray byteArray;
-    byteArray += m_serial->readAll();
-    m_console->putData(byteArray);
-
-    //we want to read all message not only chunks
-    if(!QString(byteArray).contains("\n"))
-        return;
-
-    //sanitize data
-    dataRead = QString( byteArray ).remove("\r").remove("\n");
-    dataRead = QString( byteArray ).remove("\u001B[1;32muart:~$ \u001B[m\u001B[8D\u001B[J").remove("\u001B[1;3");
-    //remove after the status
-    dataRead.truncate(17);
-    byteArray.clear();
-
-    // Print data
-    //qDebug() << "RECV: " << dataRead;
-
-    //Now send data to be parsed
-
-    //dataRead = data;
-    //qDebug() << "Read: " << data << "pointer: " << dataRead << "QString:"  << QString::fromUtf8(data);
+    const QByteArray data = m_serial->readAll();
+    m_console->putData(data);
 }
 
 void MainWindow::handleError(QSerialPort::SerialPortError error)
 {
     if (error == QSerialPort::ResourceError) {
         QMessageBox::critical(this, tr("Critical Error"), m_serial->errorString());
-
         closeSerialPort();
     }
 }
