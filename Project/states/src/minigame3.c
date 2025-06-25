@@ -3,6 +3,8 @@
 K_TIMER_DEFINE(timerMg3, NULL, NULL);
 LOG_MODULE_REGISTER(mg_3);
 
+#define PLAY_TIME_GIVEN 20
+
 char *mg3Threads[mg3ThreadCount] = {"startbtn", "btnmatrix_in", "btnmatrix_out", "ledmatrix"};
 
 void getMg3Threads(char ***names, unsigned *amount) {
@@ -54,7 +56,7 @@ int playMg3() {
 		btnmatrix_to_ledmatrix(random_shape, led_matrix_shape);
 		ledmatrixSetMutexValue(led_matrix_shape);
 
-		k_timer_start(&timerMg3, K_MSEC(10000), K_NO_WAIT);
+		k_timer_start(&timerMg3, K_MSEC(PLAY_TIME_GIVEN * 1000), K_NO_WAIT);
 
 		while (!shapes_match) {
 			native_loop();
@@ -75,7 +77,7 @@ int playMg3() {
 		ledmatrixSetMutexValue(led_matrix_off);
 
 		if(remaining_time > 0){
-			score += (remaining_time / 10) / MG3_MAX_PLAY_COUNT;
+			score += (remaining_time / PLAY_TIME_GIVEN) / MG3_MAX_PLAY_COUNT;
 		}
 
 		if(score >= 1000){
