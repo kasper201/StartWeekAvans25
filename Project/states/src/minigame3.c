@@ -75,7 +75,7 @@ int playMg3() {
 		ledmatrixSetMutexValue(led_matrix_off);
 
 		if(remaining_time > 0){
-			score += (remaining_time) / MG3_MAX_PLAY_COUNT;
+			score += (remaining_time / 10) / MG3_MAX_PLAY_COUNT;
 		}
 
 		if(score >= 1000){
