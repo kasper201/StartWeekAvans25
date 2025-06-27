@@ -44,13 +44,14 @@ int playMg3() {
 	uint16_t led_matrix_off[16] = {0};
 	uint32_t score = 0;
 
+	show_oneliners(oneLinersMG3, MG3_ONELINERS);
+	wait_till_game_start();
+
 	for (int i = 0; i < MG3_MAX_PLAY_COUNT; i++)
 	{
 		uint32_t remaining_time = 0;
 		bool shapes_match = 0;
-		show_oneliners(oneLinersMG3, MG3_ONELINERS);
 		lcdEnable();
-		wait_till_game_start();
 
 		generate_shape(random_shape);
 		btnmatrix_to_ledmatrix(random_shape, led_matrix_shape);
