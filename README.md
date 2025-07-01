@@ -21,6 +21,8 @@ It's very likely that a busy wait loop exists in the code if the simulator hangs
 
 Currently there is also a bug with timers, meaning that the digital twin goes through a timer faster or slower. This prevents some minigames from being played properly.
 
+The bug is less noticable in the stand-alone version, which can be found on the "stand-alone_native_sim" branch. Please check out the readme in that branch for more information about this version.
+
 ## Qt
 [//]: # (Never)
 The Qt application has been made with Qt 5.12. This can be installed and has been confirmed to build on both Windows and Linux.
